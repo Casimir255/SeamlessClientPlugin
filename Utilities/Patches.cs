@@ -264,7 +264,7 @@ namespace SeamlessClientPlugin.SeamlessTransfer
                         continue;
 
 
-                    var files = Directory.GetFiles(SearchDir, "CustomLoadingBackground*.dds", SearchOption.TopDirectoryOnly);
+                    var files = Directory.GetFiles(SearchDir, "CLB*.dds", SearchOption.TopDirectoryOnly);
                     foreach (var file in files)
                     {
                         // Adds all files containing CustomLoadingBackground to a list for later randomisation
